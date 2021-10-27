@@ -3,14 +3,16 @@ html {
     background-color: #F7F7FF;
     }
 
-
+body{
+    background-color: #F7F7FF;
+}
 
     .nav-item{
         font-size: auto;
         font-weight: bold ;
         color:#43386B;
-        padding-left: 5em;
-        padding-right: 5em;
+        padding-left: 5vw;
+        padding-right: 5vw;
         margin-top: 1em;
         margin-bottom: 1em;
     }
@@ -42,7 +44,8 @@ html {
     }
 
     .titulosMedianos{
-        font-weight: bold;
+        text-align: center;
+        font-weight: bolder;
         color: #43386B;
     }
 
@@ -159,6 +162,28 @@ html {
         }
 
         &__card{
+            align-content: center;
+            justify-content: center;
+            border:#F7F7FF;
+            background-color: #F7F7FF;
+
+
+            &__img{
+                padding-top: 15px;
+                align-content: center;
+                border-radius: 15px;
+                max-width: calc(max(15vw, 180px));
+                min-height: calc(max(15vw, 180px));
+            
+            }
+
+            &textoPrincipal{
+                font-size: calc(max(20vw, 350px));
+            }
+
+            &textosecundario{
+
+            }
 
         }
 
@@ -191,6 +216,39 @@ html {
         border-width: 0.2vw;
         border-color: #DEA861;
     }
+
+
+    .BgProductos{
+        background-color: #F7F7FF;
+    }
+
+    .contenedorDeImagenes{
+        transition: all .2s ease-in-out;
+        text-decoration: none;
+        text-align: center;
+        color: #43386B;
+    }
+
+        .contenedorDeImagenes:hover{
+            transform: scale(1.1);
+            overflow: auto;
+            font-weight: bold;
+            color: #43386B;
+        }
+
+    .titulosPaginas{
+        padding: 4vw;
+    }
+
+
+    .card{
+        margin: 0 auto; 
+        float: none; 
+        margin-bottom: 10px; 
+        background-color: #F7F7FF;
+        border: none;
+    }
+
 
 
 /*s="main__experience">
